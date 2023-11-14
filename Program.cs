@@ -13,3 +13,13 @@ void Wil(string[] sp1, string[] sp2)
         }
     }
 }
+void Print(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+Wil(sp1, sp2);
+Print(sp2);
